@@ -93,6 +93,7 @@ class Handler(Extract, GetPages):
                 }
                 final_list.append(temp_dict)
 
+        if final_list:
             return final_list
         else:
             return None
